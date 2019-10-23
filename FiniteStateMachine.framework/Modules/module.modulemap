@@ -1,0 +1,6 @@
+framework module FiniteStateMachine {
+  umbrella header "FiniteStateMachine.h"
+
+  export *
+  module * { export * }
+}

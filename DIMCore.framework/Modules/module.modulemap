@@ -1,0 +1,6 @@
+framework module DIMCore {
+  umbrella header "DIMCore.h"
+
+  export *
+  module * { export * }
+}

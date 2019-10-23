@@ -1,0 +1,6 @@
+framework module MarsGate {
+  umbrella header "MarsGate.h"
+
+  export *
+  module * { export * }
+}

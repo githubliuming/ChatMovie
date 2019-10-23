@@ -1,0 +1,6 @@
+framework module DaoKeDao {
+  umbrella header "DaoKeDao.h"
+
+  export *
+  module * { export * }
+}

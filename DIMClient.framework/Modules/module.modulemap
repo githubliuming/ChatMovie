@@ -1,0 +1,6 @@
+framework module DIMClient {
+  umbrella header "DIMClient.h"
+
+  export *
+  module * { export * }
+}
