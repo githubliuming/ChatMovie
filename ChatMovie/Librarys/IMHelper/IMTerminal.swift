@@ -102,8 +102,20 @@ extension IMTerminal {
     
     private func launchServiceProvider(config:Dictionary<String,Any>){
         
-       let IDString = config["ID"] as! String
-      let mkID =  DIMFacebook.sharedInstance().id(with: IDString);
+        let IDString = config["ID"] as! String
+        let id = Id(with: IDString)
+        let sp = DIMServiceProvider.init(id: id!)
+        let stations:Array<Dictionary<String,Any>> = config["stations"] as! Array<Dictionary<String,Any>>
+        let station:Dictionary<String,Any> = stations.first!
+        print("server info = \(station)")
+    }
+    private func startServer(server:Dictionary<String,Any>, provider:DIMServiceProvider) {
+        
+       let ID = Id(with: server["ID"] as! String)!
+       let meta = Meta(from: server["meta"] as! Dictionary<String,Any>)!
+        
+//        let userDB = AccountDatabase
+        
     }
 }
 

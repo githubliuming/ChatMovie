@@ -27,6 +27,7 @@
 		54A5436C236189B2002FF94D /* Data+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5436B236189B2002FF94D /* Data+Hex.swift */; };
 		54A5436F2361A434002FF94D /* GlobalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5436E2361A434002FF94D /* GlobalConfig.swift */; };
 		54A543712361A7D6002FF94D /* TypeDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A543702361A7D6002FF94D /* TypeDefine.swift */; };
+		54A543732361BBDB002FF94D /* AccoutDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A543722361BBDB002FF94D /* AccoutDataBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		54A5436B236189B2002FF94D /* Data+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Hex.swift"; sourceTree = "<group>"; };
 		54A5436E2361A434002FF94D /* GlobalConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConfig.swift; sourceTree = "<group>"; };
 		54A543702361A7D6002FF94D /* TypeDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeDefine.swift; sourceTree = "<group>"; };
+		54A543722361BBDB002FF94D /* AccoutDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccoutDataBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				54A54355236171E6002FF94D /* IMTerminal.swift */,
+				54A543722361BBDB002FF94D /* AccoutDataBase.swift */,
 			);
 			path = IMHelper;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				545E8718236079E300A3899D /* ViewController.swift in Sources */,
 				54A54356236171E6002FF94D /* IMTerminal.swift in Sources */,
 				54A543682361841A002FF94D /* Bundle+AppInfo.swift in Sources */,
+				54A543732361BBDB002FF94D /* AccoutDataBase.swift in Sources */,
 				545E8714236079E300A3899D /* AppDelegate.swift in Sources */,
 				54A5436F2361A434002FF94D /* GlobalConfig.swift in Sources */,
 				54A543712361A7D6002FF94D /* TypeDefine.swift in Sources */,
