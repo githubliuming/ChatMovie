@@ -14,12 +14,19 @@
 		545E871D236079E500A3899D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545E871C236079E500A3899D /* Assets.xcassets */; };
 		545E8720236079E500A3899D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545E871E236079E500A3899D /* LaunchScreen.storyboard */; };
 		545E8729236079F800A3899D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E8728236079F800A3899D /* AudioToolbox.framework */; };
-		545E878423607FBB00A3899D /* DaoKeDao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E877E23607FBB00A3899D /* DaoKeDao.framework */; };
-		545E878523607FBB00A3899D /* DIMCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E877F23607FBB00A3899D /* DIMCore.framework */; };
-		545E878623607FBB00A3899D /* MingKeMing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E878023607FBB00A3899D /* MingKeMing.framework */; };
-		545E878723607FBB00A3899D /* FiniteStateMachine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E878123607FBB00A3899D /* FiniteStateMachine.framework */; };
-		545E878823607FBB00A3899D /* DIMClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E878223607FBB00A3899D /* DIMClient.framework */; };
-		545E878923607FBB00A3899D /* MarsGate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E878323607FBB00A3899D /* MarsGate.framework */; };
+		54A5434D23617045002FF94D /* gsp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54A5434C23617045002FF94D /* gsp.plist */; };
+		54A54356236171E6002FF94D /* IMTerminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A54355236171E6002FF94D /* IMTerminal.swift */; };
+		54A5436123617BC6002FF94D /* MarsGate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A5435B23617BC5002FF94D /* MarsGate.framework */; };
+		54A5436223617BC6002FF94D /* FiniteStateMachine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A5435C23617BC5002FF94D /* FiniteStateMachine.framework */; };
+		54A5436323617BC6002FF94D /* DaoKeDao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A5435D23617BC5002FF94D /* DaoKeDao.framework */; };
+		54A5436423617BC6002FF94D /* DIMClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A5435E23617BC5002FF94D /* DIMClient.framework */; };
+		54A5436523617BC6002FF94D /* DIMCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A5435F23617BC6002FF94D /* DIMCore.framework */; };
+		54A5436623617BC6002FF94D /* MingKeMing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A5436023617BC6002FF94D /* MingKeMing.framework */; };
+		54A543682361841A002FF94D /* Bundle+AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A543672361841A002FF94D /* Bundle+AppInfo.swift */; };
+		54A5436A236188FB002FF94D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A54369236188FB002FF94D /* String+Extension.swift */; };
+		54A5436C236189B2002FF94D /* Data+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5436B236189B2002FF94D /* Data+Hex.swift */; };
+		54A5436F2361A434002FF94D /* GlobalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5436E2361A434002FF94D /* GlobalConfig.swift */; };
+		54A543712361A7D6002FF94D /* TypeDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A543702361A7D6002FF94D /* TypeDefine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +39,19 @@
 		545E871F236079E500A3899D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		545E8721236079E500A3899D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		545E8728236079F800A3899D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		545E877E23607FBB00A3899D /* DaoKeDao.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaoKeDao.framework; sourceTree = "<group>"; };
-		545E877F23607FBB00A3899D /* DIMCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DIMCore.framework; sourceTree = "<group>"; };
-		545E878023607FBB00A3899D /* MingKeMing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MingKeMing.framework; sourceTree = "<group>"; };
-		545E878123607FBB00A3899D /* FiniteStateMachine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FiniteStateMachine.framework; sourceTree = "<group>"; };
-		545E878223607FBB00A3899D /* DIMClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DIMClient.framework; sourceTree = "<group>"; };
-		545E878323607FBB00A3899D /* MarsGate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MarsGate.framework; sourceTree = "<group>"; };
+		54A5434C23617045002FF94D /* gsp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gsp.plist; sourceTree = "<group>"; };
+		54A54355236171E6002FF94D /* IMTerminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMTerminal.swift; sourceTree = "<group>"; };
+		54A5435B23617BC5002FF94D /* MarsGate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MarsGate.framework; sourceTree = "<group>"; };
+		54A5435C23617BC5002FF94D /* FiniteStateMachine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FiniteStateMachine.framework; sourceTree = "<group>"; };
+		54A5435D23617BC5002FF94D /* DaoKeDao.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaoKeDao.framework; sourceTree = "<group>"; };
+		54A5435E23617BC5002FF94D /* DIMClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DIMClient.framework; sourceTree = "<group>"; };
+		54A5435F23617BC6002FF94D /* DIMCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DIMCore.framework; sourceTree = "<group>"; };
+		54A5436023617BC6002FF94D /* MingKeMing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MingKeMing.framework; sourceTree = "<group>"; };
+		54A543672361841A002FF94D /* Bundle+AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+AppInfo.swift"; sourceTree = "<group>"; };
+		54A54369236188FB002FF94D /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		54A5436B236189B2002FF94D /* Data+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Hex.swift"; sourceTree = "<group>"; };
+		54A5436E2361A434002FF94D /* GlobalConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConfig.swift; sourceTree = "<group>"; };
+		54A543702361A7D6002FF94D /* TypeDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeDefine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,13 +59,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545E878423607FBB00A3899D /* DaoKeDao.framework in Frameworks */,
+				54A5436123617BC6002FF94D /* MarsGate.framework in Frameworks */,
+				54A5436423617BC6002FF94D /* DIMClient.framework in Frameworks */,
+				54A5436523617BC6002FF94D /* DIMCore.framework in Frameworks */,
+				54A5436223617BC6002FF94D /* FiniteStateMachine.framework in Frameworks */,
+				54A5436323617BC6002FF94D /* DaoKeDao.framework in Frameworks */,
+				54A5436623617BC6002FF94D /* MingKeMing.framework in Frameworks */,
 				545E8729236079F800A3899D /* AudioToolbox.framework in Frameworks */,
-				545E878623607FBB00A3899D /* MingKeMing.framework in Frameworks */,
-				545E878723607FBB00A3899D /* FiniteStateMachine.framework in Frameworks */,
-				545E878823607FBB00A3899D /* DIMClient.framework in Frameworks */,
-				545E878923607FBB00A3899D /* MarsGate.framework in Frameworks */,
-				545E878523607FBB00A3899D /* DIMCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,10 @@
 		545E8712236079E300A3899D /* ChatMovie */ = {
 			isa = PBXGroup;
 			children = (
+				54A5436D2361A41A002FF94D /* CMConfig */,
+				54A5434E2361708F002FF94D /* Librarys */,
+				54A5434B2361700D002FF94D /* Resources */,
+				54A5434923616FCD002FF94D /* Modules */,
 				545E8713236079E300A3899D /* AppDelegate.swift */,
 				545E8715236079E300A3899D /* SceneDelegate.swift */,
 				545E8717236079E300A3899D /* ViewController.swift */,
@@ -92,15 +110,106 @@
 		545E8727236079F800A3899D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				545E877E23607FBB00A3899D /* DaoKeDao.framework */,
-				545E878223607FBB00A3899D /* DIMClient.framework */,
-				545E877F23607FBB00A3899D /* DIMCore.framework */,
-				545E878123607FBB00A3899D /* FiniteStateMachine.framework */,
-				545E878323607FBB00A3899D /* MarsGate.framework */,
-				545E878023607FBB00A3899D /* MingKeMing.framework */,
+				54A5435D23617BC5002FF94D /* DaoKeDao.framework */,
+				54A5435E23617BC5002FF94D /* DIMClient.framework */,
+				54A5435F23617BC6002FF94D /* DIMCore.framework */,
+				54A5435C23617BC5002FF94D /* FiniteStateMachine.framework */,
+				54A5435B23617BC5002FF94D /* MarsGate.framework */,
+				54A5436023617BC6002FF94D /* MingKeMing.framework */,
 				545E8728236079F800A3899D /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54A5434923616FCD002FF94D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				54A5434A23616FF3002FF94D /* IM */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		54A5434A23616FF3002FF94D /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				54A5435323617126002FF94D /* Stores */,
+				54A5435223617115002FF94D /* Models */,
+				54A5435123617105002FF94D /* Views */,
+				54A54350236170F9002FF94D /* Controllers */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		54A5434B2361700D002FF94D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54A5434C23617045002FF94D /* gsp.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		54A5434E2361708F002FF94D /* Librarys */ = {
+			isa = PBXGroup;
+			children = (
+				54A5435423617147002FF94D /* IMHelper */,
+				54A5434F236170CF002FF94D /* Extensions */,
+			);
+			path = Librarys;
+			sourceTree = "<group>";
+		};
+		54A5434F236170CF002FF94D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				54A543672361841A002FF94D /* Bundle+AppInfo.swift */,
+				54A54369236188FB002FF94D /* String+Extension.swift */,
+				54A5436B236189B2002FF94D /* Data+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		54A54350236170F9002FF94D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		54A5435123617105002FF94D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54A5435223617115002FF94D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54A5435323617126002FF94D /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		54A5435423617147002FF94D /* IMHelper */ = {
+			isa = PBXGroup;
+			children = (
+				54A54355236171E6002FF94D /* IMTerminal.swift */,
+			);
+			path = IMHelper;
+			sourceTree = "<group>";
+		};
+		54A5436D2361A41A002FF94D /* CMConfig */ = {
+			isa = PBXGroup;
+			children = (
+				54A5436E2361A434002FF94D /* GlobalConfig.swift */,
+				54A543702361A7D6002FF94D /* TypeDefine.swift */,
+			);
+			path = CMConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				545E8720236079E500A3899D /* LaunchScreen.storyboard in Resources */,
+				54A5434D23617045002FF94D /* gsp.plist in Resources */,
 				545E871D236079E500A3899D /* Assets.xcassets in Resources */,
 				545E871B236079E300A3899D /* Main.storyboard in Resources */,
 			);
@@ -175,7 +285,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				545E8718236079E300A3899D /* ViewController.swift in Sources */,
+				54A54356236171E6002FF94D /* IMTerminal.swift in Sources */,
+				54A543682361841A002FF94D /* Bundle+AppInfo.swift in Sources */,
 				545E8714236079E300A3899D /* AppDelegate.swift in Sources */,
+				54A5436F2361A434002FF94D /* GlobalConfig.swift in Sources */,
+				54A543712361A7D6002FF94D /* TypeDefine.swift in Sources */,
+				54A5436A236188FB002FF94D /* String+Extension.swift in Sources */,
+				54A5436C236189B2002FF94D /* Data+Hex.swift in Sources */,
 				545E8716236079E300A3899D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,11 +439,13 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FJV2B9GPDW;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ChatMovie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,11 +465,13 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FJV2B9GPDW;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ChatMovie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
